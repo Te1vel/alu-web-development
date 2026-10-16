@@ -1,30 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>My Tweets - HTML Basic</title>
-</head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-            </ul>
-        </nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
     </header>
-
     <main>
-        <h1>Check out this Tweet</h1>
-        <blockquote class="twitter-tweet">
-            <p lang="en" dir="ltr">Just setting up my twttr.</p>&mdash; jack (@jack) <a href="https://twitter.com/jack/status/20?ref_src=twsrc%5Etfw">March 21, 2006</a>
-        </blockquote> 
-        <script async src="https://platform.twitter.com/widgets.js"></script>
+        <article>
+            <h1>My Tweets</h1>
+            <p>Here is a tweet I found interesting:</p>
 
-        <p><a href="index.html">Go back to the homepage</a></p>
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">The secret of getting ahead is getting started.</p>
+                &mdash; Holberton School (@holbertonschool)
+                <a href="https://twitter.com/holbertonschool/status/1">January 1, 2020</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js"></script>
+
+            <p>Go back to the <a href="index.html">homepage</a>.</p>
+        </article>
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
     </main>
-
     <footer>
-        <p>Made by <a href="index.html" target="_blank">me</a> - <a href="https://twitter.com" target="_blank">Twitter</a></p>
+        <p>Made by John Doe - <a href="https://www.holbertonschool.com" target="_blank">here</a></p>
     </footer>
 </body>
 </html>
